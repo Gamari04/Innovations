@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0F2137;
+    font-size: 18px;
+    font-weight: 150;
+    line-height: 2px;
+    width: 400px;
+    font-family: Sans Serif Collection;
+}
+
+.logo img {
+    padding: 10px;
+
+}
+
+.logo ul a {
+    color: #02073E;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+
+nav ul li {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 100px;
+}
+
+span {
+    color: #0A8080;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.space{
+    padding-left: 10px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap :10px
+}
+.btn ul{
+    padding-right: 100px;
+}
+li h6 span{
+    color: #0A8080;
+}
+.home-text{
+    color: #000;
+font-family: B612;
+font-size: 25px;
+font-style: normal;
+line-height: 50px;
+position: absolute;
+left:200px;
+margin-top: 2%;
+}
+.pic{
+    margin-top: 18%;
+    position:
+    left: 200px;
+}
+.contact_section {
+    width: 30%;
+    border: none;
+    height: 50px;
+    margin-bottom: 25px;
+    outline: none;
+    display: flex;
+    margin-left: 55%;
+    display: block;
+}
+  
+
+.input_box{
+    display: block;
+}
+.image{
+    position: absolute;
+    left: 200px;
+}
+
