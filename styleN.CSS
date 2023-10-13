@@ -182,5 +182,29 @@ button{
 
 .pic_about {
     position: absolute;
-
+    bottom: 2%;
+}
+.header{
+    
+font-size: 29px;
+font-weight: 550;
+line-height: 40px;
+position: absolute;
+left: 200px;
+margin-top: 5%;
+}
+.advertise_text{
+    
+font-size: 25px;
+font-weight: 400;
+line-height: 40px;
+    position: absolute;
+left: 200px;
+margin-top: 15%;
+}
+.service_pic{
+    position: absolute;
+    right: 45px;
+    width: 35%;
+    margin: 5%;
 }
