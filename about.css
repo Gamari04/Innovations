@@ -46,39 +46,35 @@ top: 240%;
     justify-content: center;
     align-items: center;
     margin-top: 10%;
-    gap: 8%;
-    margin-left: 5%;
+    display: grid;
+  grid-template-columns: auto auto auto;
+  gap:10px;
 }
-.idea{
-    margin-bottom: 2%;
-    font-size: 33px;
-    line-height: 50px;
-}
-
 .text_service{
     line-height: 30px;
-
+    display: flex;
+    align-self:center;
 }
 .done{
     display: flex;
     justify-content: center;
-    align-items
-    
+
 }
 .done1{
  flex-direction: row;
 }
 .idea_pic{
-    width: 90%;
+    width: 80%;
 }
 .promise{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10%;
+    
 }
 .succeful_pic{
-    width: 90%;
+    width: 80%;
 }
 .plan{
     display: flex;
@@ -86,6 +82,7 @@ top: 240%;
     align-items: center;
     margin-top: 5%;
     gap: 5%;
+    padding-left: 7%;
 }
 .plan_pic{
     width: 85%;
