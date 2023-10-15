@@ -39,7 +39,7 @@ height: 6.35px;
 border-radius: 5px;
 background: #0A8080;
 position: absolute;
-top: 240%;
+top:200%
 }
 .service{
     display: flex;
