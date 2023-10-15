@@ -1,9 +1,10 @@
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5%;
 }
+
 .about {
     color: #000;
     font-size: 60px;
@@ -13,14 +14,16 @@
     margin-right: 52%;
     margin-bottom: 8%;
 }
+
 .about_text {
     color: #000;
     font-family: DM Sans;
     font-size: 23px;
     font-weight: 350;
     line-height: 35px;
-   
+
 }
+
 .list {
     position: absolute;
     margin-top: 3%;
@@ -33,50 +36,59 @@
     gap: 190px;
     list-style: none;
 }
-.line_1{
+
+.line_1 {
     width: 230px;
-height: 6.35px;
-border-radius: 5px;
-background: #0A8080;
-position: absolute;
-top:200%
+    height: 6.35px;
+    border-radius: 5px;
+    background: #0A8080;
+    position: absolute;
+    top: 200%
 }
-.service{
+
+.service {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10%;
     display: grid;
-  grid-template-columns: auto auto auto;
-  gap:10px;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
 }
-.text_service{
+
+.text_service {
     line-height: 30px;
     display: flex;
-    align-self:center;
+    align-self: center;
 }
-.done{
+
+.done {
     display: flex;
     justify-content: center;
 
 }
-.done1{
- flex-direction: row;
+
+.done1 {
+    flex-direction: row;
 }
-.idea_pic{
+
+.idea_pic {
     width: 80%;
 }
-.promise{
+
+.promise {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10%;
-    
+
 }
-.succeful_pic{
+
+.succeful_pic {
     width: 80%;
 }
-.plan{
+
+.plan {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,14 +96,17 @@ top:200%
     gap: 5%;
     padding-left: 7%;
 }
-.plan_pic{
+
+.plan_pic {
     width: 85%;
 }
-.model{
+
+.model {
     font-size: 30px;
     font-weight: 550;
-    
+
 }
-.model_text{
+
+.model_text {
     line-height: 30px;
 }

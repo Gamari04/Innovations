@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     list-style-type: none;
+    text-decoration: none;
 }
 
 nav {
@@ -18,7 +19,6 @@ nav {
 .logo {
     display: flex;
     align-items: center;
-    text-decoration: none;
     color: #0F2137;
     font-size: 18px;
     font-weight: 150;
@@ -157,6 +157,23 @@ button {
 }
 
 .image {
-    position: absolute;
-    left: 200px;
+    width: 60%;
+    margin-left: 23%;
+}
+.title_home{
+    width: 900px;
+height: 206.368px;
+font-size: 250%;
+margin-left: 23%;
+text-align: center;
+}
+
+.home_illustration{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
