@@ -255,8 +255,52 @@ padding-right: 30%;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 25px;
     padding-right: 30%;
+}
+.gift{
+    background-color: #FBF5F1;
+    width: 375px;
+height: 160px;
+text-align: center;
+padding-top: 40px;
+line-height: 30px;
+}
+.blog_post ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.subscribe{
+    background-color: #F8F0EA;
+}
+.like{
+   text-align: center;
+  border: 2px solid  #fff;
+  border-radius: 10px;
+  background-color: #fff;
+    width: 60%;
+    height: 10px;
+    margin-left: 15%;
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+.us{
+  margin-bottom: 
+  
+}
+.plante{
+    width: 100px;
+   position: absolute;
+   top:463%;
+   right: 90%;
+}
+.books{
+    width: 150px;
+    position: absolute;
+    top:468%;
+    right:10%;
 }
 .footer{
     display: flex;
