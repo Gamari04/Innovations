@@ -134,14 +134,11 @@ input {
     border: none;
     margin: 5%;
 }
-
+input::placeholder{
+    padding-left: 5%;
+}
 #message {
-    background: rgba(19, 184, 184, 0.40);
-    border-radius: 15px;
-    border: none;
-    width: 260%;
-    height: 50px;
-    margin: 5%;
+    height: 200px;
 }
 
 button {
@@ -161,19 +158,49 @@ button {
     margin-left: 23%;
 }
 .title_home{
-    width: 900px;
-height: 206.368px;
 font-size: 250%;
-margin-left: 23%;
 text-align: center;
+display: flex;
+align-items: center;
+}
+.short{
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+}
+ .started_btn{
+    display: inline-block;
+    border: 1px solid;
+    align-self: center;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-top: 3%;
+    background-color: #0A8080;
+    width: 130px;
+    height: 45px;
+    line-height: 38px;
 }
 
 .home_illustration{
     display: flex;
     flex-direction: column;
 }
+.home2{
+    background-color:#FFF5ED ;
+}
+ul{
+    display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-left: 20px;
+}
 .footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
