@@ -87,72 +87,6 @@ h1 {
 li h6 span {
     color: #0A8080;
 }
-
-.home-text {
-    color: #000;
-    font-family: B612;
-    font-size: 25px;
-    font-style: normal;
-    line-height: 50px;
-    position: absolute;
-    left: 200px;
-    margin-top: 2%;
-}
-
-.pic {
-    margin-top: 18%;
-    position:
-        left: 200px;
-}
-
-.contact_section {
-    width: 30%;
-    border: none;
-    height: 50px;
-
-    margin-left: 55%;
-    display: flex;
-    align-items: center;
-
-
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 230%;
-    margin-left: 35%;
-
-}
-
-input {
-    width: 260%;
-    height: 50px;
-    background: rgba(19, 184, 184, 0.40);
-    border-radius: 15px;
-    border: none;
-    margin: 5%;
-}
-input::placeholder{
-    padding-left: 5%;
-}
-#message {
-    height: 200px;
-}
-
-button {
-    background: rgba(19, 184, 184, 0.40);
-    border: none;
-    height: 40px;
-    border-radius: 15px;
-    padding-right: 90%;
-}
-
-.submit {
-    margin-right: 230%;
-}
-
 .image {
     width: 60%;
     margin-left: 23%;
@@ -169,7 +103,6 @@ align-items: center;
     line-height: 25px;
 }
  .started_btn{
-    display: inline-block;
     border: 1px solid;
     align-self: center;
     text-align: center;
@@ -274,37 +207,70 @@ line-height: 30px;
 }
 .subscribe{
     background-color: #F8F0EA;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 4%;
 }
 .like{
    text-align: center;
   border: 2px solid  #fff;
   border-radius: 10px;
   background-color: #fff;
-    width: 60%;
-    height: 10px;
-    margin-left: 15%;
-    padding-top: 8%;
-    padding-bottom: 3%;
+    width: 70%;
+    margin-bottom: 6%;
 }
-.us{
-  margin-bottom: 
-  
-}
+
 .plante{
     width: 100px;
-   position: absolute;
-   top:463%;
-   right: 90%;
 }
 .books{
-    width: 150px;
-    position: absolute;
-    top:468%;
-    right:10%;
+    width: 200px;
+  height: 200px;
 }
+.follow{
+    background-color:#EFF3F7;
+    width: 70%;
+    padding-left: 5%;
+    margin-right: 1%;
+}
+.subscribe_btn{
+    border: 50px solid;
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #DB4A87;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding: 15px;
+}
+.like {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.write li{
+    display: flex;
+    align-items: center;
+}
+
 .footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 7%;
+}
+.footer-link{
+    color: #02073E;
+
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 250%;
 }
