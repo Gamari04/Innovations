@@ -45,35 +45,12 @@ nav ul {
     display: flex;
     align-items: center;
     gap: 30px;
-}
-
-
-nav ul li {
-    list-style: none;
-}
-
-nav a {
-    text-decoration: none;
-}
-
-ul {
     padding-left: 220px;
 }
 
 span {
     color: #0A8080;
 }
-
-h1 {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-}
-
-.space {
-    padding-left: 10px;
-}
-
 .btn {
     display: flex;
     align-items: center;
@@ -87,22 +64,27 @@ h1 {
 li h6 span {
     color: #0A8080;
 }
+
 .image {
     width: 60%;
     margin-left: 23%;
 }
-.title_home{
-font-size: 250%;
-text-align: center;
-display: flex;
-align-items: center;
+
+.title_home {
+    font-size: 250%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   padding-top: 80px;
 }
-.short{
+
+.short {
     text-align: center;
     margin-top: 20px;
     line-height: 25px;
 }
- .started_btn{
+
+.started_btn {
     border: 1px solid;
     align-self: center;
     text-align: center;
@@ -117,61 +99,78 @@ align-items: center;
     line-height: 38px;
 }
 
-.home_illustration{
+.home_illustration {
     display: flex;
     flex-direction: column;
 }
-.home2{
-    background-color:#FFF5ED ;
+
+.home2 {
+    background-color: #FFF5ED;
 }
-.startup{
+.home2 h1{
+    text-align: center;
+}
+.startup {
     display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-evely;
-  gap: 50px;
-  padding-left: 220px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-left: 220px;
 }
-.quote{
+.pic_p{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.quote {
     padding-left: 25%;
     opacity: 10%;
 }
+
 .styled-line {
-    border: none; 
-    height: 2px; 
-    background-color:#DBDEE7; 
+    border: none;
+    height: 2px;
+    background-color: #DBDEE7;
     margin-left: 20%;
     width: 80px;
-    
+
 }
-.short2{
+
+.short2 {
     text-align: center;
     line-height: 25px;
     font-weight: 400;
     font-size: 22px;
 }
-.auteur{
+
+.auteur {
     color: #7E8896;
 
-font-family: DM Sans;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 40px;
-text-align: center;
-padding-right: 30%;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    padding-right: 30%;
 }
-.collabs{
+
+.collabs {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-right: 200px;
 }
-.collab_size{
+
+.collab_size {
     width: 100px;
 }
-.superheros{
+.super h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.superheros {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -179,10 +178,8 @@ padding-right: 30%;
     margin-right: 100px;
     gap: 30px;
 }
-.sup_size{
-    width: 300px;
-}
-.auteur1{
+
+.auteur1 {
     color: #7E8896;
     font-family: DM Sans;
     font-size: 16px;
@@ -191,21 +188,27 @@ padding-right: 30%;
     line-height: 25px;
     padding-right: 30%;
 }
-.gift{
+
+.gift {
     background-color: #FBF5F1;
     width: 375px;
-height: 160px;
-text-align: center;
-padding-top: 40px;
-line-height: 30px;
+    height: 160px;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 30px;
 }
-.blog_post ul{
+.popular h1{
+    text-align: center;
+}
+
+.blog_post ul {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
 }
-.subscribe{
+
+.subscribe {
     background-color: #F8F0EA;
     display: flex;
     align-items: center;
@@ -213,29 +216,27 @@ line-height: 30px;
     justify-content: space-between;
     padding-top: 4%;
 }
-.like{
-   text-align: center;
-  border: 2px solid  #fff;
-  border-radius: 10px;
-  background-color: #fff;
+
+.like1 {
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #fff;
     width: 70%;
     margin-bottom: 6%;
+    display: flex;
+    align-items: center;
+}
+.follow {
+    background-color: #EFF3F7;
+    width: 250px;
 }
 
-.plante{
-    width: 100px;
+.creative {
+    text-align: start;
 }
-.books{
-    width: 200px;
-  height: 200px;
-}
-.follow{
-    background-color:#EFF3F7;
-    width: 70%;
-    padding-left: 5%;
-    margin-right: 1%;
-}
-.subscribe_btn{
+
+.subscribe_btn {
     border: 50px solid;
     text-align: center;
     color: #fff;
@@ -248,29 +249,30 @@ line-height: 30px;
     padding-left: 15px;
     padding: 15px;
 }
-.like {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.write li{
+.write {
     display: flex;
     align-items: center;
 }
 
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 7%;
+footer {
+  display: flex;
+ align-items: cenr;
+ margin-left: 16%;
+}
+footer div{
+    width: 20%;
+
+}
+footer div h1{
+    font-size: 20px;
+    font-weight: 10;
+    margin-bottom :40px;
 }
 .footer-link{
     color: #02073E;
-
-font-family: DM Sans;
-font-size: 15px;
-font-style: normal;
+    font-size: 15px;
 font-weight: 400;
 line-height: 250%;
 }
+
+
