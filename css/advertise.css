@@ -89,18 +89,6 @@ li h6 span {
     padding-left: 30px;
 
 }
-
-.service_pic {
-    width: 65%;
-    margin-left: 10%;
-    margin-top: 5%;
-
-}
-.Quote{
-    margin-left: 11%;
-    margin-top: 2%;
-    font-weight: 300;
-}
 .pic_p{
   display: flex;
   align-items: center;
@@ -108,10 +96,13 @@ li h6 span {
 }
 .our_service ul{
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin-right: 20%;
+  justify-content: space-evenly;
+
+}
+.learn{
+  color: blue;
+  padding-top: 20px;
 }
 .pic_size{
   width: 25%;
@@ -129,18 +120,17 @@ margin-top: 5%;
 .clients ul{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .client_pic{
-  width: 50%;
-  margin-bottom: 12%;
-
+  width: 300px;
 }
 footer {
   display: flex;
- align-items: cenr;
- margin-left: 16%;
+  padding-left: 100px;
+  padding-top: 50px;
+ background-color: #13b8b81a ;
 }
 footer div{
     width: 20%;
