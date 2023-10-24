@@ -14,14 +14,14 @@
 <body>
     <!--header-->
     <nav>
-        <div class="logo"> <img src="image.png/logo_1.svg" alt="logo">Innovations
-            <ul>
+        <div class="logo"> <img src="image.png/logo_1.svg" alt="logo">Innovations </div>
+            <ul class="links">
                 <li><a title="go here" href="index.html">Home</a></li>
                 <li><a title="go here" href="advertise.html">Advertise</a></li>
                 <li><a title="go here" href="about.html">About</a></li>
                 <li><a title="go here" href="support.html">Support</a></li>
             </ul>
-        </div>
+        
         <div class="btn">
             <ul>
                 <li>
@@ -270,5 +270,12 @@
    
     </footer>
 </body>
+<script>
+    const menuHamburger = document.querySelector(".menu_burger")
+    const navLinks = document.querySelector(".links")
 
+    menuHamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle("mobile-menu")
+    })
+</script>
 </html>
