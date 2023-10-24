@@ -91,14 +91,14 @@ li h6 span {
 }
 .pic_p{
   display: flex;
-  align-items: center;
+
   margin-top: 40px;
+  width: 30%;
 }
-.our_service ul{
+.our_service {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-
+  padding-left: 180px;
 }
 .learn{
   color: blue;
