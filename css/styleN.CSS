@@ -47,7 +47,7 @@ nav ul {
 }
 .links a:hover{
     background-color: #0a8080be;
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     padding: 10%;
 }
 span {
@@ -70,15 +70,17 @@ span {
 li h6 span {
     color: #0A8080;
 }
-/* .about{
-    padding-top: 0px;
-} */
+.about:hover .drop-down {
+    display: block;
+}
+
 .links .drop-down {
   position: absolute;
   padding: 0.5rem 0.5rem;
   background-color:#FBF5F1;
-  
+  display: none;
 }
+
  nav .menu_burger{
     display: none;
     position: absolute;
@@ -113,6 +115,9 @@ li h6 span {
         justify-content: center;
         margin-left: -100%;
         transition: all 0.5s ease;
+    }
+    .about{
+        margin: 8%;
     }
     .links.mobile-menu {
         margin-left: 0;

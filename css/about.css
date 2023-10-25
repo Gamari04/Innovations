@@ -68,6 +68,7 @@ li h6 span {
     justify-content: center;
     align-items: center;
     margin-top: 5%;
+    flex-wrap: wrap;
 }
 
 .about {
@@ -75,9 +76,10 @@ li h6 span {
     font-size: 60px;
     font-weight: 550;
     line-height: 30px;
-    margin-left: 1%;
-    margin-right: 52%;
-    margin-bottom: 8%;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 150px;
+    
 }
 
 .about_text {
@@ -118,6 +120,7 @@ li h6 span {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .text_service {

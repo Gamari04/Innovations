@@ -68,7 +68,7 @@ li h6 span {
     text-align: center;
     padding-top: 5%;
 }
-.home-text {
+/* .home-text {
     color: #000;
     font-family: B612;
     font-size: 25px;
@@ -77,33 +77,39 @@ li h6 span {
     position: absolute;
     left: 200px;
     margin-top: 2%;
+} */
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
 }
-
-.pic {
+/* .pic {
     margin-top: 18%;
-}
+} */
 
-.contact_section {
-    width: 30%;
+/* .contact_section {
+    width: 50%;
     border: none;
     height: 50px;
-
-    margin-left: 55%;
-    display: flex;
-    align-items: center;
-
-
-}
+} */
 
 form {
     display: flex;
     flex-direction: column;
+    width: 70%;
     align-items: center;
-    margin-bottom: 230%;
-    margin-left: 35%;
 
 }
 
+
+.help{
+    font-size: 25px;
+    padding-bottom: 35px;
+    padding-top: 35px;
+    padding-left: 90px;
+}
 input {
     width: 260%;
     height: 50px;
@@ -114,7 +120,6 @@ input {
 }
 textarea{
     width: 260%;
-    height: 50px;
     background: rgba(19, 184, 184, 0.40);
     border-radius: 15px;
     border: none;
@@ -141,6 +146,22 @@ button {
 
 .submit {
     margin-right: 230%;
+}
+.frequent{
+    width: 600px;
+    background-color: rgba(169, 169, 169, 0.219);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.Question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 40px;
+
 }
 footer {
     display: flex;
