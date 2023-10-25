@@ -68,8 +68,7 @@ li h6 span {
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    padding-left: 100px;
-    gap: 3%;
+    gap: 5%;
     flex-wrap: wrap;
 }
 .header {
@@ -114,7 +113,7 @@ li h6 span {
   font-size: 29px;
   font-weight: 550;
   line-height: 40px;
-padding-left: 15%;
+padding-left: 12%;
 margin-top: 5%;
 }
 .clients ul{
