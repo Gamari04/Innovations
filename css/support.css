@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 
-nav {
+/* nav {
     display: flex;
     list-style-type: none;
     justify-content: space-around;
@@ -63,6 +63,129 @@ span {
 
 li h6 span {
     color: #0A8080;
+} */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(19, 184, 184, 0.10);
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #0F2137;
+    font-size: 18px;
+    font-weight: 150;
+    line-height: 2px;
+    font-family: Sans Serif Collection;
+}
+
+.logo img {
+    padding: 10px;
+
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.links a {
+    color: #02073E;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px
+}
+.links a:hover{
+    background-color: #0a8080be;
+    border-radius: 0.8rem;
+    padding: 10%;
+}
+span {
+    color: #0A8080;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.btn ul {
+    padding-right: 100px;
+}
+
+li h6 span {
+    color: #0A8080;
+}
+.about:hover .drop-down {
+    display: block;
+}
+
+.links .drop-down {
+  position: absolute;
+  padding: 0.5rem 0.5rem;
+  background-color:#FBF5F1;
+  display: none;
+}
+
+ nav .menu_burger{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+
+}
+@media only screen and (max-width: 700px) {
+    nav .menu_burger{
+        display: block;
+    }
+    .nav {
+        background-color: #fff;
+      }
+    .btn{
+        display: none;
+    }
+    .logo{
+        position: absolute;
+        top: 35px;
+        left: 50px;
+    }
+    .links{
+        top: 0;
+        left: 0;
+        display: block;
+        position: absolute;
+        background-color: rgba(249, 244, 244, 0.678);
+        backdrop-filter: blur(7px);/*arrier flow*/
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* transform: translateX(100%);*/
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+    .about{
+        margin: 8%;
+    }
+    .links.mobile-menu {
+        margin-left: 0;
+    }
+    .links a {
+        font-size: 2em;
+    }
+    .speak{
+        display: none;
+    }
+    .frequent{
+        max-width: 400px;
+    }
 }
 .us_contact{
     text-align: center;
@@ -155,7 +278,7 @@ button {
     display: flex;
     justify-content: space-between;
 }
-.Question{
+.question{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,6 +286,16 @@ button {
     margin: 40px;
 
 }
+
+.answer {
+    display: none;
+ 
+
+}
+.answer.open{
+    display: block;
+}
+
 footer {
     display: flex;
    margin-left: 16%;

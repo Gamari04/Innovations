@@ -62,7 +62,53 @@ span {
 
 li h6 span {
     color: #0A8080;
-}.container {
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    nav .menu_burger{
+        display: block;
+    }
+    .btn{
+        display: none;
+    }
+    .logo{
+        position: absolute;
+        top: 35px;
+        left: 50px;
+    }
+    .links{
+        top: 0;
+        left: 0;
+        display: block;
+        position: absolute;
+        background-color: rgba(249, 244, 244, 0.678);
+        backdrop-filter: blur(7px);/*arrier flow*/
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* transform: translateX(100%);*/
+        justify-content: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+    .about{
+        margin: 8%;
+    }
+    .links.mobile-menu {
+        margin-left: 0;
+    }
+    .links a {
+        font-size: 2em;
+    }
+}
+
+
+
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
