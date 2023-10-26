@@ -325,11 +325,20 @@ li h6 span {
     .service{
         display: none;
     }
+    .service.active{
+        display: block;
+    }
     .promise{
         display: none;
     }
+    .promise.active{
+        display: block;
+    }
     .plan{
         display: none;
+    }
+    .plan.active{
+        display: block;
     }
     .pic_about{
         max-width: 100%;

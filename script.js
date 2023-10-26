@@ -21,4 +21,11 @@ questions.forEach((question) => {
     answer.classList.toggle("open");
   });
 });
+const asking = document.querySelectorAll(".why_us");
+asking.forEach((posez)=>{
+    posez.addEventListener("click", function () {
+      var thiswhy = posez.querySelector(".thats_why");
+      thiswhy.classList.toggle("active")
+    });
+})
 
