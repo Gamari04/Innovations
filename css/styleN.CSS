@@ -84,6 +84,9 @@ li h6 span {
     right: 50px;
 
 }
+.footer{
+    display: none;
+}
 @media only screen and (max-width: 700px) {
     nav .menu_burger{
         display: block;
@@ -107,7 +110,6 @@ li h6 span {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        /* transform: translateX(100%);*/
         justify-content: center;
         margin-left: -100%;
         transition: all 0.5s ease;
@@ -120,6 +122,28 @@ li h6 span {
     }
     .links a {
         font-size: 2em;
+    }
+    footer div{
+        display: none;
+    }
+    .footer{
+        display: block;
+        background-color: rgba(19, 184, 184, 0.10);
+    }
+    .foot_logo{
+        display: flex;
+        align-items: center;
+        gap: 2%;
+        margin-left: 5%;
+        padding-top: 3%;
+        
+    }
+    .flexi{
+        display: flex;
+        align-items: center;
+    
+        gap: 5%;
+       margin: 7%;
     }
 }
 
@@ -345,20 +369,9 @@ flex-wrap: wrap;
 
 .creative {
     text-align: start;
-    width: ;
+   
 }
-/* border: 1px solid;
-    align-self: center;
-    text-align: center;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 600;
-    border-radius: 8px;
-    margin-top: 3%;
-    background-color: #0A8080;
-    width: 130px;
-    height: 45px;
-    line-height: 38px; */
+
 
 .subscribe_btn {
     text-align: center;
@@ -371,40 +384,6 @@ flex-wrap: wrap;
     padding: 10px; 
 }
    
-    /* padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding: 15px; */
-
-
-/* .back{
-    background-color: #13b8b81a ;
-    padding-top: 5%;
-    
-}
-
-footer {
-  display: flex;
-flex-wrap: wrap;
- padding-left: 250px;
-}
-footer div{
-    width: 20%;   
-}
-footer div h1{
-    font-size: 20px;
-    font-weight: 10;
-    margin-bottom :40px;
-}
-.footer-link{
-    color: #02073E;
-    font-size: 15px;
-font-weight: 400;
-line-height: 250%;
-}
-
- */
-
  footer {
     display: flex;
     align-items: center;

@@ -140,6 +140,9 @@ li h6 span {
     right: 50px;
 
 }
+.footer{
+    display: none;
+}
 @media only screen and (max-width: 700px) {
     nav .menu_burger{
         display: block;
@@ -185,6 +188,37 @@ li h6 span {
     }
     .frequent{
         max-width: 400px;
+    }
+    .us_contact{
+        margin-top: 11%;
+    }
+    .help{
+        padding-top: %;
+    }
+    form{
+        margin-left: 20%;
+    }
+    footer div{
+        display: none;
+    }
+     .footer{
+        display: block;
+        background-color: rgba(19, 184, 184, 0.10);
+    }
+    .foot_logo{
+        display: flex;
+        align-items: center;
+        gap: 2%;
+        margin-left: 5%;
+        padding-top: 3%;
+        
+    }
+    .flexi{
+        display: flex;
+        align-items: center;
+    
+        gap: 5%;
+       margin: 7%;
     }
 }
 .us_contact{
@@ -247,11 +281,12 @@ textarea{
     border-radius: 15px;
     border: none;
     margin: 5%;
+    padding: 10%;
 }
- textarea::placeholder{
+ /* textarea::placeholder{
     padding-top: 5%;
     padding-left: 5%;
-}
+} */
 input::placeholder{
     padding-left: 6%;
 }
@@ -263,8 +298,8 @@ button {
     background: rgba(19, 184, 184, 0.40);
     border: none;
     height: 40px;
-    border-radius: 15px;
-    padding-right: 90%;
+    border-radius: 13px;
+    padding: 30%;
 }
 
 .submit {
@@ -289,16 +324,42 @@ button {
 
 .answer {
     display: none;
- 
-
+    margin: 2%;
+    line-height: 150%;
+    background-color: rgba(19, 184, 184, 0.10) ;
+    padding: 3%;
 }
 .answer.open{
     display: block;
 }
 
-footer {
+
+/* footer {
     display: flex;
    margin-left: 16%;
+   
+  }
+  footer div{
+      width: 20%;
+  
+  }
+  footer div h1{
+      font-size: 20px;
+      font-weight: 10;
+      margin-bottom :40px;
+  }
+  .footer-link{
+      color: #02073E;
+      font-size: 15px;
+  font-weight: 400;
+  line-height: 250%;
+  } */
+  footer {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 50px;
+   background-color: #13b8b81a ;
   }
   footer div{
       width: 20%;
